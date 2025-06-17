@@ -7,13 +7,34 @@
 .carousel-item img {
     width: 100;
     height: 95vh;
-    object-fit: cover;
 }
 
-.carousel-caption {
+.carousel-inner::before,
+.carousel-inner::after,
+.carousel-control-prev,
+.carousel-control-next {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none !important;
+}
+
+.carousel-item {
     background: none !important;
 }
 
-.carousel-caption {
-    display: none;
+.carousel-control-prev,
+.carousel-control-next {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 5%; /* Reduce the clickable area width if you want */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none !important; /* removes the arrow icons */
 }
