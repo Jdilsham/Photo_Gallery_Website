@@ -31,13 +31,13 @@
                             Categories
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="nature">Nature</a></li>
-                            <li><a class="dropdown-item" href="architecture">Architecture</a></li>
-                            <li><a class="dropdown-item" href="travel">Travel</a></li>
+                            <li><a class="dropdown-item" href="#nature">Nature</a></li>
+                            <li><a class="dropdown-item" href="#architecture">Architecture</a></li>
+                            <li><a class="dropdown-item" href="#travel">Travel</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link active" href="contactus">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#contactus">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
                 </ul>
             </div>
         </div>
