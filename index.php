@@ -84,6 +84,63 @@
         </button>
     </div>
 
+
+    <section class="my-4">
+        <div class="py-4">
+            <h2 class="text-center">Nature</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/nature1.jpg" class="img-fluid pb-3">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/nature2.jpg" class="img-fluid pb-3">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/nature3.jpg" class="img-fluid pb-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="my-4">
+        <div class="py-4">
+            <h2 class="text-center">Architecture</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/Architecture1.jpg" class="img-fluid pb-3">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/Architecture2.jpg" class="img-fluid pb-3">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/Architecture3.jpg" class="img-fluid pb-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="my-4">
+        <div class="py-4">
+            <h2 class="text-center">Travel</h2>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                <img src="images/Travel1.jpg" class="img-fluid pb-3">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/Travel2.jpg" class="img-fluid pb-3">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/Travel3.jpg" class="img-fluid pb-3">
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
