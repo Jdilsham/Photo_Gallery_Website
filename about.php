@@ -15,5 +15,5 @@
     $query = "INSERT INTO users (name,email,number) VALUES ('$name','$email','$number')";
 
     mysqli_query($conn,$query);
-    header('Location:index.php');
+    header('Location:index.php#contactus');
 ?>
