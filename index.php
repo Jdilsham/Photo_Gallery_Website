@@ -31,13 +31,13 @@
                             Categories
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Nature</a></li>
-                            <li><a class="dropdown-item" href="#">Architecture</a></li>
-                            <li><a class="dropdown-item" href="#">Travel</a></li>
+                            <li><a class="dropdown-item" href="nature">Nature</a></li>
+                            <li><a class="dropdown-item" href="architecture">Architecture</a></li>
+                            <li><a class="dropdown-item" href="travel">Travel</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contactus">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about">About</a></li>
                 </ul>
             </div>
         </div>
@@ -84,7 +84,7 @@
         </button>
     </div>
 
-
+    <a id="nature">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Nature</h2>
@@ -103,7 +103,9 @@
             </div>
         </div>
     </section>
+    </a>
 
+    <a id="architecture">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Architecture</h2>
@@ -122,7 +124,9 @@
             </div>
         </div>
     </section>
+    </a>
 
+    <a class="travel">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Travel</h2>
@@ -141,7 +145,9 @@
             </div>
         </div>
     </section>
+    </a>
 
+    <a id="contactus">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Contact Us</h2>
@@ -165,8 +171,9 @@
             </form>
         </div>
     </section>
+    </a>
 
-
+    <a id="about">
     <section class="my-5">
         <div class="py-4">
             <h2 class="text-center mb-4">About Us</h2>
@@ -192,7 +199,7 @@
             </div>
         </div>
     </section>
-
+    </a>
 
 
 
