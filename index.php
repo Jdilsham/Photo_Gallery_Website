@@ -126,7 +126,7 @@
     </section>
     </a>
 
-    <a class="travel">
+    <a id="travel">
     <section class="my-4">
         <div class="py-4">
             <h2 class="text-center">Travel</h2>
