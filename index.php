@@ -172,24 +172,28 @@
             <h2 class="text-center mb-4">About Us</h2>
         </div>
         <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <img src="images/about.jpg" alt="About Us" class="img-fluid rounded shadow">
+            <div class="row align-items-center g-3"> <!-- g-3 reduces gutter space -->
+
+                <div class="col-md-6 text-center">
+                    <img src="images/about.jpg" alt="About Us"
+                        class="img-fluid mx-auto d-block"
+                        style="max-width: 250px; border-radius: 20px;">
                 </div>
+
                 <div class="col-md-6">
-                    <p class="lead">
-                        Welcome to our Photo Gallery! We are passionate about capturing the beauty of the world through images —
-                        from stunning landscapes and architectural marvels to travel moments and artistic visuals. Our mission is to
-                        inspire and share stories through photography.
+                    <p class="lead mb-2">
+                        Welcome to our Photo Gallery! We are passionate about capturing the beauty of the world through images — from stunning landscapes and architectural marvels to travel moments and artistic visuals.
                     </p>
-                    <p>
-                        Whether you're a photography lover or just someone who enjoys beautiful visuals, our platform offers
-                        something special for you. Explore, admire, and feel free to share your thoughts with us.
+                    <p class="mb-1">
+                        Whether you're a photography lover or just someone who enjoys beautiful visuals, our platform offers something special for you. Explore, admire, and feel free to share your thoughts with us.
                     </p>
                 </div>
+
             </div>
         </div>
     </section>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -31,10 +31,25 @@
     background: none !important;
     border: none !important;
     box-shadow: none !important;
-    width: 5%; /* Reduce the clickable area width if you want */
+    width: 5%;
+    /* Reduce the clickable area width if you want */
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-image: none !important; /* removes the arrow icons */
+    background-image: none !important;
+    /* removes the arrow icons */
+}
+
+.small-img {
+    width: 60%;
+    /* Adjust as needed */
+    max-width: 300px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+.small-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
